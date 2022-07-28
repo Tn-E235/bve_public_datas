@@ -32,6 +32,12 @@ image::./images/bana-.png[header]
 車両データに組み込んで使用及びそのデータを公開する際はご連絡の必要はありません。
 ReadMe等に使用したことを明記してください。
 
+ストラクチャ::
+データの改変の有無にかかわらず二次配布・無断転載はおやめください。
+データの改変は路線データにて使用する場合に限ります。
+路線データに使用し、その路線データを公開する場合は、
+ReadMe等に使用したことを明記してください。
+
 == 公開データ一覧
 [[route]]
 * 路線データ
@@ -65,3 +71,30 @@ ReadMe等に使用したことを明記してください。
     https://drive.google.com/file/d/1_MVdjQ2wYZAEx5W5OO7jbuWrcyT0xmTp/view?usp=sharing[DL(3449A)]
     https://drive.google.com/file/d/1kYzrlcAfudQ9RhbG_CqQndZm8M3-0I90/view?usp=sharing[DL(757T)]
 // image::./images/image.jpg[]
+
+[[structures]]
+* ストラクチャ
+
+// .公開ストラクチャ一覧
+
+[options="autowidth"]
+|===
+|オブジェクト名 |参考画像 |Link
+
+|JRの電車
+a|image::./images/no_image.png[height="100", align="center"]
+|https://drive.google.com/file/d/12DvnalS_sQROP003_n7rMMpHVzMCymEE/view?usp=sharing[DL]
+
+|名鉄の電車
+a|image::./images/no_image.png[height="100", align="center"]
+|https://drive.google.com/file/d/1KWjhWbIgxtZ3_RZZM5Kei06vy-EKeLsJ/view?usp=sharing[DL]
+
+|架線吊るすやつ
+a|image::./images/no_image.png[height="100", align="center"]
+|https://drive.google.com/file/d/1QQmF9agCvPzIjdR3m--UAA1q7sSzYmdy/view?usp=sharing[DL]
+
+|名鉄の速度標識
+a|image::./images/no_image.png[height="100", align="center"]
+|https://drive.google.com/file/d/1NnGhdyc1F2Hdez8dHtpP8jwHdoCFYlV5/view?usp=sharing[DL]
+
+|===
