@@ -40,61 +40,121 @@ ReadMe等に使用したことを明記してください。
 
 == 公開データ一覧
 [[route]]
-* 路線データ
-** 名鉄名古屋本線 知立→豊明(神宮前)
-    https://drive.google.com/file/d/1W_J3htQBnEWnmo5NalnRUDWrTQKm4AuA/view?usp=sharing[DL(最終更新：2021/01/05)]
-** 名鉄三河線 知立→豊田市
-    https://drive.google.com/file/d/1PN946O9aimOQEUG5QQo1UBQx2gEaX7ww/view?usp=sharing[DL(最終更新：202/04/15)]
-
-[[train]]
-* 車両データ
-** 名鉄6000系
-    https://drive.google.com/file/d/1LOWNeVr7rzzPP0D3SH-LYOIRv41siMjj/view?usp=sharing[DL(最終更新：2022/02/18)]
-
-[[train_panel]]
-* 車両パネルデータ
-** 名鉄9500系
-    https://drive.google.com/file/d/1VHqEEkRABUPOSTXXi1bf2bZipNVFjq6p/view?usp=sharing[DL(最終更新：2022/01/13)]
-** [line-through]#JR東日本 E235系#
-    [line-through]#https://google.com[DL]#
-** [line-through]#北越急行 HK100形#
-    [line-through]#https://google.com[DL]#
-
-[[ats_pulgin]]
-* プラグイン
-** M式ATSプラグイン
-** TICSプラグイン
-** 電車でGO!!プラグイン
-    *** 車両パネルセット(プラグイン含)
-    https://drive.google.com/file/d/1q_7_2aGlsjH-YDD2bFczAxqdSfJKXclH/view?usp=sharing[DL(最終更新：2020/05/27)]
-    *** 電車でGO‼パッチ JR神戸線
-    https://drive.google.com/file/d/1_MVdjQ2wYZAEx5W5OO7jbuWrcyT0xmTp/view?usp=sharing[DL(3449A)]
-    https://drive.google.com/file/d/1kYzrlcAfudQ9RhbG_CqQndZm8M3-0I90/view?usp=sharing[DL(757T)]
-// image::./images/image.jpg[]
-
-[[structures]]
-* ストラクチャ
-
-// .公開ストラクチャ一覧
+=== 路線データ
 
 [options="autowidth"]
 |===
-|オブジェクト名 |参考画像 |Link
+// 4+^|車両データ
+|車両名 |参考画像 |Link |最終更新日
+|名鉄名古屋本線 +
+知立→豊明(神宮前)
+a|image::./images/no_image.png[width=100%, align="center"]
+|https://drive.google.com/file/d/1W_J3htQBnEWnmo5NalnRUDWrTQKm4AuA/view?usp=sharing[DL]
+|2021/01/05
+
+|名鉄三河線 +
+知立→豊田市
+a|image::./images/no_image.png[width=100%, align="center"]
+|https://drive.google.com/file/d/1PN946O9aimOQEUG5QQo1UBQx2gEaX7ww/view?usp=sharing[DL]
+|2021/04/15
+
+|JR山手線 +
+東京→大崎 +
+PLATEAU EDITION
+a|image::./images/jre_yamanote.jpg[width=100%, align="center"]
+|--
+|20xx/yy/zz
+
+
+
+|===
+
+=== 車両データ
+[[車両データ]]
+[options="autowidth"]
+|===
+// 4+^|車両データ
+|車両名 |参考画像 |Link |最終更新日
+|名鉄6000系6016F
+a|image::./images/no_image.png[width=100%, align="center"]
+|https://drive.google.com/file/d/1LOWNeVr7rzzPP0D3SH-LYOIRv41siMjj/view?usp=sharing[DL]
+|2022/02/18
+
+|JR西日本103系R1
+a|image::./images/jrw103_r1.jpg[width=100%, align="center"]
+|--
+|2022/--/--
+
+|===
+
+=== 車両パネル
+[[車両パネル]]
+[options="autowidth"]
+|===
+// 4+^|車両パネル
+|車両名 |参考画像 |Link |最終更新日
+
+|名鉄9500系9501F
+a|image::./images/mei9501.jpg[width=100%, align="center"]
+|https://drive.google.com/file/d/1VHqEEkRABUPOSTXXi1bf2bZipNVFjq6p/view?usp=sharing[DL]
+|2022/01/13
+
+
+
+|JR東日本E235系
+a|image::./images/jre235-0.jpg[width=100%, align="center"]
+|--
+|20--/--/--
+
+|===
+
+=== ATSプラグイン
+[[ats_pulgin]]
+[options="autowidth"]
+|===
+|車両名 |参考画像 |Link |最終更新日
+|電車でGO!!車両パネルセット
+a|image::./images/no_image.png[width=100%, align="center"]
+|https://drive.google.com/file/d/1q_7_2aGlsjH-YDD2bFczAxqdSfJKXclH/view?usp=sharing[DL]
+|2020/05/27
+
+|電車でGO‼パッチ JR神戸線
+a|image::./images/no_image.png[width=100%, align="center"]
+|https://drive.google.com/file/d/1_MVdjQ2wYZAEx5W5OO7jbuWrcyT0xmTp/view?usp=sharing[DL(3449A)]
+ https://drive.google.com/file/d/1kYzrlcAfudQ9RhbG_CqQndZm8M3-0I90/view?usp=sharing[DL(757T)]
+|--
+|2022/--/--
+
+|===
+
+
+
+
+=== ストラクチャ
+[[structures]]
+
+[options="autowidth"]
+|===
+|オブジェクト名 |参考画像 |Link |最終更新日
 
 |JRの電車
 a|image::./images/no_image.png[height="100", align="center"]
 |https://drive.google.com/file/d/12DvnalS_sQROP003_n7rMMpHVzMCymEE/view?usp=sharing[DL]
+|20xx/yy/zz
 
 |名鉄の電車
 a|image::./images/no_image.png[height="100", align="center"]
 |https://drive.google.com/file/d/1KWjhWbIgxtZ3_RZZM5Kei06vy-EKeLsJ/view?usp=sharing[DL]
+|20xx/yy/zz
 
 |架線吊るすやつ
 a|image::./images/no_image.png[height="100", align="center"]
 |https://drive.google.com/file/d/1QQmF9agCvPzIjdR3m--UAA1q7sSzYmdy/view?usp=sharing[DL]
+|20xx/yy/zz
 
 |名鉄の速度標識
 a|image::./images/no_image.png[height="100", align="center"]
 |https://drive.google.com/file/d/1NnGhdyc1F2Hdez8dHtpP8jwHdoCFYlV5/view?usp=sharing[DL]
+|20xx/yy/zz
 
 |===
