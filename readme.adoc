@@ -82,8 +82,8 @@ a|image::./images/no_image.png[width=100%, align="center"]
 
 |JR西日本103系R1
 a|image::./images/jrw103_r1.jpg[width=100%, align="center"]
-|--
-|2022/--/--
+|https://t.co/HVEnWBoBtq[DL]
+|2022/10/23
 
 |===
 
