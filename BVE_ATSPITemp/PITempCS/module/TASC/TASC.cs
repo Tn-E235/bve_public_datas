@@ -18,7 +18,7 @@ namespace PITempCS.TASC {
         private State state;                    // 車両情報
         private Boolean enable = false;         // TASC動作状態
 
-        private const double MARGEN = 0.035;    // 停止位置誤差[m]
+        private const double MARGEN = 0.35;     // 停止位置誤差[m]
 
         public TASC() {
             brakeNotch = 0;
@@ -36,8 +36,8 @@ namespace PITempCS.TASC {
             if (counter % up == 0){
                 double kasokudo = k.getKasokudo();
                 double zankyori = stop - state.Z;
-                double oku = getPatternBxN(zankyori + (zankyori * MARGEN), kasokudo);
-                double mae = getPatternBxN(zankyori - (zankyori * MARGEN), kasokudo);
+                double oku = getPatternBxN(zankyori + (zankyori * (MARGEN / 2.0)), kasokudo);
+                double mae = getPatternBxN(zankyori - (zankyori * (MARGEN / 2.0)), kasokudo);
                 if (oku < state.V) {
                     if(brakeNotch < 8)++brakeNotch;
                 } else if (mae > state.V) {
