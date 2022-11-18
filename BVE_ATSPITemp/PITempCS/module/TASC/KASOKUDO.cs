@@ -62,7 +62,7 @@ namespace PITempCS.TASC {
         /* ----------------------------------------------------------------- */
         // 加速度を計算する
         private double calcKasokudo() {
-            int idx = counter == 0 ? mem_num - 1 : counter - 1;
+            int idx = (counter - 1 + mem_num) % mem_num;
             float s = kasokudo_data[counter].speed - kasokudo_data[idx].speed;
             double t = kasokudo_data[counter].time - kasokudo_data[idx].time;
             return (s / (t / 1000));
